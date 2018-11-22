@@ -20,6 +20,8 @@ namespace Encrypter
 
         private void btnEncrypt_Click(object sender, EventArgs e)
         {
+            tbxOutput.Text = "";
+
             StringBuilder sb = new StringBuilder();
 
             Helper helper = new Helper();
