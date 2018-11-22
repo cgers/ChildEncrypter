@@ -62,12 +62,12 @@
             // toolStripMenuItemFileSeperator
             // 
             this.toolStripMenuItemFileSeperator.Name = "toolStripMenuItemFileSeperator";
-            this.toolStripMenuItemFileSeperator.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItemFileSeperator.Size = new System.Drawing.Size(89, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -91,12 +91,13 @@
             // 
             // btnEncrypt
             // 
-            this.btnEncrypt.Location = new System.Drawing.Point(239, 200);
+            this.btnEncrypt.Location = new System.Drawing.Point(231, 200);
             this.btnEncrypt.Name = "btnEncrypt";
             this.btnEncrypt.Size = new System.Drawing.Size(119, 23);
             this.btnEncrypt.TabIndex = 3;
             this.btnEncrypt.Text = "Encrypt Text Above";
             this.btnEncrypt.UseVisualStyleBackColor = true;
+            this.btnEncrypt.Click += new System.EventHandler(this.btnEncrypt_Click);
             // 
             // tbxInput
             // 
